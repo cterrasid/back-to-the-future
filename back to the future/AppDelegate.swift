@@ -6,6 +6,11 @@
 //  Copyright © 2020 Clarette Terrasi Díaz. All rights reserved.
 //
 
+// 1. Crear una UI básica con cuatro labels, donde cada una representa un dígito de un año determinado
+// 2. Referenciar los elementos de la UI en el ViewController
+// 3. Crear una nueva clase llamada Utilities, que contiene dos métodos: GetCurrentYear, para obtener el año actual, y GetLetterAtIndex, para obtener cada dígito del año por separado
+// 4. En el ViewController, asignar cada dígito a cada elemento de la UI, usando los métodos de Utilities
+
 import UIKit
 
 @UIApplicationMain
