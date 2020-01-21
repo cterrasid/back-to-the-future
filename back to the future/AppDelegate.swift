@@ -7,9 +7,12 @@
 //
 
 // 1. Crear una UI básica con cuatro labels, donde cada una representa un dígito de un año determinado
-// 2. Referenciar los elementos de la UI en el ViewController
+// 2. Referenciar los elementos de la UI en el FirstViewController
 // 3. Crear una nueva clase llamada Utilities, que contiene dos métodos: GetCurrentYear, para obtener el año actual, y GetLetterAtIndex, para obtener cada dígito del año por separado
-// 4. En el ViewController, asignar cada dígito a cada elemento de la UI, usando los métodos de Utilities
+// 4. En el método viewDidLoad del FirstViewController, asignar cada dígito a cada elemento de la UI, usando los métodos de Utilities
+// 5. Crear el método GetCurrentTime para obtener la hora actual, en Utilities
+// 6. Crear un temporizador en el FirstViewController para... : instancio a Timer(), en el viewDidLoad llamar al método scheduledTimer de Timer para establecer el intervalo de cambio de la hora (cada 1 seg); este metodo hace referencia a la función Tick que pinta cada tick en el UI
+// 7. Creo la función Tick fuera del viewDidLoad para rellenar el texto de la timeLabel con la hora actual, usando GetCurrentTime de Utilities
 
 import UIKit
 
