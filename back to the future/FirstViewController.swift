@@ -25,6 +25,9 @@ class FirstViewController: UIViewController {
         // Get each
         let year = Utilities().GetCurrentYear()
         digitOne.text = Utilities().GetLetterAtIndex(str: year, location: 0)
+        digitTwo.text = Utilities().GetLetterAtIndex(str: year, location: 1)
+        digitThree.text = Utilities().GetLetterAtIndex(str: year, location: 2)
+        digitFour.text = Utilities().GetLetterAtIndex(str: year, location: 3)
     }
 
 }
