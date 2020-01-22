@@ -22,9 +22,6 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        // Get each
         let year = Utilities().GetCurrentYear()
         digitOne.text = Utilities().GetLetterAtIndex(str: year, location: 0)
         digitTwo.text = Utilities().GetLetterAtIndex(str: year, location: 1)
